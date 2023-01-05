@@ -1,0 +1,35 @@
+
+/* -------------------XS------------------- */
+@media only screen and (max-width: 576px) {
+    
+}
+
+/* -------------------SM------------------- */
+@media only screen and (min-width: 576px) {
+
+}
+
+/* -------------------MD------------------- */
+@media only screen and (min-width: 768px) {
+    
+}
+
+/* -------------------LG------------------ */
+@media only screen and (min-width: 992px) {
+    .navbar-brand img{
+        width: 100px;
+    }
+}
+
+/* ************************** ALL SCREEN ********************* */
+
+
+.nav-item a{
+    font-weight: 500;
+    color: #474747 !important;
+}
+
+.nav-item .active{
+    color: #CAA76F !important;
+    font-weight: 600;
+}
