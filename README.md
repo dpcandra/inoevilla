@@ -13,6 +13,13 @@
 
 Villa Advertising website built with laravel
 
+<b>Fixing 500 Server Error and Generating Composer file in Windows 10</b>
+<i>$ composer install </i>
+<i>$ mv .env.example .env </i>
+<i>$ php artisan cache:clear </i>
+<i>$ composer dump-autoload </i>
+<i>$ php artisan key:generate</i>
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
