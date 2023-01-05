@@ -14,11 +14,14 @@
 Villa Advertising website built with laravel
 
 <b>Fixing 500 Server Error and Generating Composer file in Windows 10</b>
-<i>$ composer install </i>
-<i>$ mv .env.example .env </i>
-<i>$ php artisan cache:clear </i>
-<i>$ composer dump-autoload </i>
-<i>$ php artisan key:generate</i>
+
+<ul>
+    <li><i>$ composer install </i></li>
+    <li><i>$ mv .env.example .env </i></li>
+    <li><i>$ php artisan cache:clear </i></li>
+    <li><i>$ composer dump-autoload </i></li>
+    <li><i>$ php artisan key:generate</i></li>
+</ul>
 
 ## About Laravel
 
