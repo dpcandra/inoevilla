@@ -23,6 +23,29 @@
 
 /* ************************** ALL SCREEN ********************* */
 
+@font-face {
+    font-family: tahu;
+    src: url(/fonts/Tahu!.ttf);
+}
+
+@font-face {
+    font-family: amarillo;
+    src: url(/fonts/Amarillo.ttf);
+}
+
+@font-face {
+    font-family: bebas;
+    src: url(/fonts/Bebas-Regular.ttf);
+}
+
+@font-face {
+    font-family: made-tommy;
+    src: url(/fonts/made-tommy.otf);
+}
+
+body, html{
+    width: 100%;
+}
 
 .nav-item a{
     font-weight: 500;
@@ -32,4 +55,32 @@
 .nav-item .active{
     color: #CAA76F !important;
     font-weight: 600;
+}
+
+.jumbotron{
+    background-image: url("/images/jumbo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+.jumbo-title h1{
+    font-size: 50px;
+    font-family: made-tommy;
+    color: #444444;
+}
+
+.jumbo-title h5{
+    font-size: 25 px;
+    font-family: amarillo;
+    color: #CAA76F;
+}
+
+.book-btn{
+    border: 1px solid rgb(44, 44, 44);
+}
+
+.search-icons{
+    width: 17px;
 }
