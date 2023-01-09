@@ -23,6 +23,8 @@ Villa Advertising website built with laravel
     <li><i>$ php artisan key:generate</i></li>
 </ul>
 
+<image src="preview.png">
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
