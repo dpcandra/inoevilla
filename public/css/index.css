@@ -1,26 +1,4 @@
 
-/* -------------------XS------------------- */
-@media only screen and (max-width: 576px) {
-    
-}
-
-/* -------------------SM------------------- */
-@media only screen and (min-width: 576px) {
-
-}
-
-/* -------------------MD------------------- */
-@media only screen and (min-width: 768px) {
-    
-}
-
-/* -------------------LG------------------ */
-@media only screen and (min-width: 992px) {
-    .navbar-brand img{
-        width: 100px;
-    }
-}
-
 /* ************************** ALL SCREEN ********************* */
 
 @font-face {
@@ -83,4 +61,79 @@ body, html{
 
 .search-icons{
     width: 17px;
+}
+
+.featured-item .bg-icons{
+    background-color: #CAA76F;
+    width: 60px;
+    height: 60px;
+}
+
+.featured-item .bg-icons svg{
+    width: 35px;
+    fill: white;
+}
+
+.featured-item h5{
+    color: #444444;
+}
+
+
+/* -------------------XS------------------- */
+@media only screen and (max-width: 576px) {
+    .navbar-brand img{
+        width: 45px; 
+     }
+     .featured-item p{
+        display: none;
+     }
+     .featured .col-lg-3{
+        border-left: 1px solid #CAA76F;
+        border-top: 1px solid #CAA76F;
+     }
+
+     .featured .col-lg-3:nth-child(2) , .featured .col-lg-3:nth-child(4){
+        border-right: 1px solid #CAA76F;
+    }
+    .featured .col-lg-3:nth-child(3) , .featured .col-lg-3:nth-child(4){
+        border-bottom: 1px solid #CAA76F;
+    }
+}
+
+/* -------------------SM------------------- */
+@media only screen and (min-width: 576px) {
+
+}
+
+/* -------------------MD------------------- */
+@media only screen and (min-width: 768px) {
+    .navbar-brand img{
+       width: 60px; 
+    }
+
+    .featured .col-lg-3{
+        border-left: 1px solid #CAA76F;
+        border-top: 1px solid #CAA76F;
+     }
+
+     .featured .col-lg-3:nth-child(2) , .featured .col-lg-3:nth-child(4){
+        border-right: 1px solid #CAA76F;
+    }
+    .featured .col-lg-3:nth-child(3) , .featured .col-lg-3:nth-child(4){
+        border-bottom: 1px solid #CAA76F;
+    }
+}
+
+/* -------------------LG------------------ */
+@media only screen and (min-width: 992px) {
+    .navbar-brand img{
+        width: 100px;
+    }
+
+   .featured .col-lg-3:nth-child(1) , .featured .col-lg-3:nth-child(2){
+        border-bottom: 1px solid #CAA76F;
+    }
+    .featured .col-lg-3:nth-child(2){
+        border-right: none;
+    }
 }
