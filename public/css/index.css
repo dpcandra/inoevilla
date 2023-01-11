@@ -23,6 +23,13 @@
 
 body, html{
     width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    padding: 0;
+    margin: 0;
 }
 
 .nav-item a{
@@ -63,21 +70,35 @@ body, html{
     width: 17px;
 }
 
-.featured-item .bg-icons{
-    background-color: #CAA76F;
-    width: 60px;
-    height: 60px;
-}
 
-.featured-item .bg-icons svg{
-    width: 35px;
-    fill: white;
-}
 
 .featured-item h5{
     color: #444444;
 }
 
+.nav-contact:hover{
+    cursor: pointer;
+    color: #CAA76F !important;
+    /* font-weight: 600; */
+}
+
+.facilities svg{
+    width: 20px;
+    fill: #CAA76F;
+    margin-right: 10px;
+}
+
+
+
+.row-facility{
+  
+    border-bottom: 1px solid #CAA76F;
+}
+
+.facility-title{
+    font-family: made-tommy;
+    color: #444444;
+}
 
 /* -------------------XS------------------- */
 @media only screen and (max-width: 576px) {
@@ -97,6 +118,20 @@ body, html{
     }
     .featured .col-lg-3:nth-child(3) , .featured .col-lg-3:nth-child(4){
         border-bottom: 1px solid #CAA76F;
+    }
+
+    .book{
+        width: 80px;
+    }
+    .featured-item .bg-icons{
+        background-color: #CAA76F;
+        width: 40px;
+        height: 40px;
+    }
+    
+    .featured-item .bg-icons svg{
+        width: 25px;
+        fill: white;
     }
 }
 
@@ -122,6 +157,26 @@ body, html{
     .featured .col-lg-3:nth-child(3) , .featured .col-lg-3:nth-child(4){
         border-bottom: 1px solid #CAA76F;
     }
+
+    .book{
+        width: 80px;
+    }
+    .featured-item .bg-icons{
+        background-color: #CAA76F;
+        width: 60px;
+        height: 60px;
+    }
+    
+    .featured-item .bg-icons svg{
+        width: 35px;
+        fill: white;
+    }
+    .facility-title h1{
+        font-size: 30px;
+    }
+    .facility-title img{
+        width: 30px !important;
+    }
 }
 
 /* -------------------LG------------------ */
@@ -136,4 +191,19 @@ body, html{
     .featured .col-lg-3:nth-child(2){
         border-right: none;
     }
+    .featured-item .bg-icons{
+        background-color: #CAA76F;
+        width: 60px;
+        height: 60px;
+    }
+    
+    .featured-item .bg-icons svg{
+        width: 35px;
+        fill: white;
+    }
+    .luxury-p{
+        padding-right: 300px;
+    }
 }
+
+

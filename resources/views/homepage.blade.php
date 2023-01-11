@@ -63,8 +63,56 @@
         </div><!--container-->
     </section>
     
-    <section class="container mt-4 text-white">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus sapiente quo delectus incidunt praesentium dignissimos cumque exercitationem debitis ratione laudantium eligendi ab maiores veritatis, et non atque beatae, laborum perspiciatis ut qui? Ut recusandae voluptatibus neque incidunt ad sequi eveniet inventore quam, sint sit ipsam est asperiores aut, sed porro voluptate aspernatur quaerat ea odit officia pariatur numquam? Beatae cum alias autem non nobis doloribus! Rem vero eius sequi asperiores? Iste quis sequi numquam impedit quos quia quaerat modi molestias, quibusdam maxime quas? Autem similique, excepturi neque exercitationem eaque dolore soluta distinctio repellat pariatur explicabo suscipit assumenda. Facere, earum provident?
+    <section class="facilities">
+        <div class="row mx-0">
+            <div class="col-md-6 col-lg-6">
+                <img src="{{ asset("/images/facilities.jpg") }}" alt="" class="img-fluid">
+            </div><!--col-6-->
+
+            <div class="col-md-6 col-lg-6 p-5">
+                <div class="row row-facility pb-4">
+                    <div class="col-6 col-md-6 col-lg-4">
+                        <p class="text-muted">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"/></svg>
+                            Rooms
+                        </p>
+                        <p class="text-muted">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"/></svg>
+                            Restaurant
+                        </p>
+                        <p class="text-muted">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"/></svg>
+                            Pool
+                        </p>
+                    </div><!--col-4-->
+                    <div class="col-6 col-md-6 col-lg-4">
+                        <p class="text-muted">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"/></svg>
+                            SPA
+                        </p>
+                        <p class="text-muted">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"/></svg>
+                            Laundry
+                        </p>
+                        <p class="text-muted">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"/></svg>
+                            Yoga Center
+                        </p>
+                    </div><!--col-4-->
+                </div><!--row-->
+                
+                <div class="py-4 text-uppercase facility-title">
+                    <h1>Luxury
+                        <img style="width: 55px" src="{{ asset("/icons/andbird.svg") }}" alt="">
+                    </h1>
+                    <h1>Comfortable Rooms</h1>
+                </div>
+
+                <p class="luxury-p text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, in, quo et pariatur est quasi error odio delectus similique vero mollitia, facilis ad ipsa quidem officia! Deleniti provident quam hic. Fuga repellat obcaecati omnis commodi nemo repellendus laborum, tempora incidunt vero? Molestias, nesciunt necessitatibus error cumque saepe facere deleniti dolorum!</p>
+
+            </div><!--col-6-->
+            
+        </div><!--row-->
     </section>
 
 @endsection
