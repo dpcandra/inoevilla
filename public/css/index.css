@@ -91,7 +91,6 @@ html{
 
 
 .row-facility{
-  
     border-bottom: 1px solid #CAA76F;
 }
 
@@ -99,6 +98,24 @@ html{
     font-family: made-tommy;
     color: #444444;
 }
+
+.guest-book{
+    background-color: #CAA76F;
+}
+
+.new-guest h1 {
+    font-family: made-tommy;
+    color: #444444;
+}
+
+ .news img{
+    width: 280px;
+ }
+
+
+
+
+
 
 /* -------------------XS------------------- */
 @media only screen and (max-width: 576px) {
@@ -203,6 +220,13 @@ html{
     }
     .luxury-p{
         padding-right: 300px;
+    }
+
+    .news-event{
+        padding-left: 250px;
+    }
+    .facility-title h1{
+        font-size:41px;
     }
 }
 

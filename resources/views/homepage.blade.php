@@ -115,4 +115,38 @@
         </div><!--row-->
     </section>
 
+    <section class="new-guest">
+        <div class="row mx-0">
+
+            <div class="col-lg-6 news-event">
+                <h1 class="text-uppercase mt-5 mb-3">
+                    News 
+                    <img style="width: 55px" src="{{ asset("/icons/andbird.svg") }}" alt="">
+                     Event
+                </h1>
+                <hr>
+
+                <div class="news">
+                    <img src="{{ asset("/images/makanan.png") }}" alt="">
+                    <div>
+                        <small></small>
+                        <b></b>
+                        <p></p>
+                    </div>
+                </div>
+
+            </div><!--col-lg-6-->
+
+            <div class="col-lg-6 guest-book mt-5 mb-3">
+                <h1 class="text-uppercase">
+                    Guest Book
+                </h1>    
+                <div>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio corporis, totam, nostrum at eum aspernatur sequi voluptatem aliquid obcaecati fugit molestias ipsa aliquam, natus atque? Assumenda quidem illum sequi deserunt? Voluptas ipsa, eos exercitationem voluptatum accusantium sed necessitatibus, sapiente magnam ducimus soluta quidem, distinctio a. Necessitatibus ducimus exercitationem eum quam!</p>
+                </div>
+            </div><!--col-lg-6-->
+
+        </div><!--row-->
+    </section>
+
 @endsection
