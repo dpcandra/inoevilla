@@ -65,7 +65,7 @@
     
     <section class="facilities">
         <div class="row mx-0">
-            <div class="col-md-6 col-lg-6">
+            <div class="col-md-6 col-lg-6 pe-0">
                 <img src="{{ asset("/images/facilities.jpg") }}" alt="" class="img-fluid">
             </div><!--col-6-->
 
@@ -118,31 +118,50 @@
     <section class="new-guest">
         <div class="row mx-0">
 
-            <div class="col-lg-6 news-event">
-                <h1 class="text-uppercase mt-5 mb-3">
+            <div class="col-12 col-md-6 col-lg-6 news-event">
+                <h1 class="text-uppercase mt-5">
                     News 
                     <img style="width: 55px" src="{{ asset("/icons/andbird.svg") }}" alt="">
                      Event
                 </h1>
-                <hr>
+                <hr class="my-4">
 
-                <div class="news">
-                    <img src="{{ asset("/images/makanan.png") }}" alt="">
+                <div class="news d-flex mb-4">
+                    <img class="pe-4" src="{{ asset("/images/makanan.png") }}" alt="">
                     <div>
-                        <small></small>
-                        <b></b>
-                        <p></p>
+                        <p class="mb-2 text-muted"><small class="">January, 14 2023</small></p>
+                        <b>Discount up to 30% for Breakfast</b>
+                        <p class="mt-2 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores suscipit ea saepe tempore sunt quod voluptatibus ipsa sit dolorum culpa.</p>
+                    </div>
+                </div>
+
+                <div class="news d-flex mb-4">
+                    <img class="pe-4" src="{{ asset("/images/newyears.png") }}" alt="">
+                    <div>
+                        <p class="mb-2 text-muted"><small class="">December, 31 2022</small></p>
+                        <b>Merry Christmass & Happy New Year 2023</b>
+                        <p class="mt-2 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores suscipit ea saepe tempore sunt quod voluptatibus ipsa sit dolorum culpa.</p>
                     </div>
                 </div>
 
             </div><!--col-lg-6-->
 
-            <div class="col-lg-6 guest-book mt-5 mb-3">
-                <h1 class="text-uppercase">
+            <div class="col-12 col-md-6 col-lg-6 guest-book text-white">
+                <h1 class="text-uppercase mt-5 text-white">
                     Guest Book
-                </h1>    
-                <div>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio corporis, totam, nostrum at eum aspernatur sequi voluptatem aliquid obcaecati fugit molestias ipsa aliquam, natus atque? Assumenda quidem illum sequi deserunt? Voluptas ipsa, eos exercitationem voluptatum accusantium sed necessitatibus, sapiente magnam ducimus soluta quidem, distinctio a. Necessitatibus ducimus exercitationem eum quam!</p>
+                </h1>
+                <hr>
+                <div class="d-flex mb-5">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z"/></svg>
+                    <div class="mx-4">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio corporis, totam, nostrum at eum aspernatur sequi voluptatem aliquid obcaecati fugit molestias ipsa aliquam, natus atque? Assumenda quidem illum sequi deserunt? Voluptas ipsa, eos exercitationem voluptatum accusantium sed necessi.</p>
+                        <p>Jessica Monica - <b>Youtuber</b></p>
+                    </div>
+                    <img src="{{ asset("/images/review-protrait.jpg") }}" alt="">
+                </div>
+                
+                <div class="d-flex justify-content-center">
+                    <a href="" class="text-decoration-none">BOOK YOUR ROOM</a>
                 </div>
             </div><!--col-lg-6-->
 

@@ -103,15 +103,44 @@ html{
     background-color: #CAA76F;
 }
 
+
+
 .new-guest h1 {
     font-family: made-tommy;
     color: #444444;
 }
 
- .news img{
-    width: 280px;
+
+
+ .guest-book hr{
+    margin-top: 30px;
  }
 
+
+
+
+
+ .guest-book svg{
+    width: 300px;
+    height: 50px;
+    fill: #eccd9a;
+    /* position: relative;
+    top: -80px; */
+ }
+
+ .guest-book a{
+    color: white;
+    border: 1px solid white;
+
+ }
+
+
+ .guest-book a:hover{
+    color: #CAA76F;
+    border: 1px solid #CAA76F;
+    background-color: white;
+    transition: 0.3s;
+ }
 
 
 
@@ -150,6 +179,18 @@ html{
         width: 25px;
         fill: white;
     }
+    .news img{
+        width: 100px;
+        height: 80px;
+     }
+     .guest-book img{
+        width: 80px;
+        height: 80px;
+     }
+     .guest-book a{
+        padding:15px 70px;
+        font-size: 20px;
+     }
 }
 
 /* -------------------SM------------------- */
@@ -194,6 +235,18 @@ html{
     .facility-title img{
         width: 30px !important;
     }
+    .news img{
+        width: 100px;
+        height: 80px;
+     }
+     .guest-book img{
+        width: 80px;
+        height: 80px;
+     }
+     .guest-book a{
+        padding:15px 70px;
+        font-size: 20px;
+     }
 }
 
 /* -------------------LG------------------ */
@@ -223,11 +276,31 @@ html{
     }
 
     .news-event{
-        padding-left: 250px;
+        padding-left: 220px;
     }
     .facility-title h1{
         font-size:41px;
     }
+
+    .news-event{
+        padding-right: 40px;
+    }
+    .news img{
+        width: 250px;
+        height: 200px;
+     }
+     .guest-book{
+        padding-left: 40px;
+        padding-right: 190px;
+     }
+     .guest-book img{
+        width: 170px;
+        height: 170px;
+     }
+     .guest-book a{
+        padding:15px 130px;
+        font-size: 20px;
+     }
 }
 
 
