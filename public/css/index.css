@@ -116,10 +116,6 @@ html{
     margin-top: 30px;
  }
 
-
-
-
-
  .guest-book svg{
     width: 300px;
     height: 50px;
@@ -134,7 +130,6 @@ html{
 
  }
 
-
  .guest-book a:hover{
     color: #CAA76F;
     border: 1px solid #CAA76F;
@@ -142,8 +137,79 @@ html{
     transition: 0.3s;
  }
 
+.footer{
+    background-color: #0F2453;
+}
 
+.box-icon{
+    background-color: #43557c;
+    width: 40px;
+    height: 40px;
+}
 
+.box-icon svg{
+    width: 20px;
+    fill: white;
+}
+
+.box-icon a{
+    height: 20px;
+    position: relative;
+    top: -2.8px;
+}
+
+.p-stay{
+    color: rgb(201, 201, 201);
+}
+
+.footer form input{
+    background-color: #0F2453;
+    border: 1px solid rgb(201, 201, 201);
+    color:  rgb(201, 201, 201);
+}
+
+.footer form input:focus{
+    border: 1px solid #CAA76F;
+    outline: none;
+    color:  rgb(201, 201, 201);
+}
+
+.footer form button{
+    background-color: #CAA76F;
+    border: 1px solid #CAA76F;
+    color: white;
+    font-weight: 600;
+    position: relative;
+    left: -4px;
+}
+
+.footer form button:hover{
+    color: #CAA76F;
+    background-color: rgb(201, 201, 201);
+    border: 1px solid rgb(201, 201, 201);
+    transition: 0.3s;
+}
+
+.footer-ends{
+    background-color: #0F2453;
+}
+
+.footer p{
+   color: rgb(201, 201, 201);
+}
+
+.footer-ends{
+    border-top: 1px solid  rgb(201, 201, 201);
+}
+
+.quick-links a{
+    color:  rgb(201, 201, 201);
+}
+
+.quick-links svg{
+    width: 17px;
+    fill: rgb(201, 201, 201);
+}
 
 
 /* -------------------XS------------------- */
@@ -191,6 +257,16 @@ html{
         padding:15px 70px;
         font-size: 20px;
      }
+     .footer form input{
+        width: 230px;
+        height: 44px;
+    }
+    .footer form button{
+        height: 44px;
+        width: 120px;
+        position: relative;
+        left: -5px;
+    }
 }
 
 /* -------------------SM------------------- */
@@ -247,6 +323,16 @@ html{
         padding:15px 70px;
         font-size: 20px;
      }
+     .footer form input{
+        width: 200px;
+        height: 44px;
+    }
+    .footer form button{
+        height: 44px;
+        width: 120px;
+        position: relative;
+        left: -5px;
+    }
 }
 
 /* -------------------LG------------------ */
@@ -276,7 +362,7 @@ html{
     }
 
     .news-event{
-        padding-left: 220px;
+        padding-left: 300px;
     }
     .facility-title h1{
         font-size:41px;
@@ -286,21 +372,29 @@ html{
         padding-right: 40px;
     }
     .news img{
-        width: 250px;
-        height: 200px;
+        width: 180px;
+        height: 160px;
      }
      .guest-book{
         padding-left: 40px;
-        padding-right: 190px;
+        padding-right: 300px;
      }
      .guest-book img{
-        width: 170px;
-        height: 170px;
+        width: 100px;
+        height: 100px;
      }
      .guest-book a{
         padding:15px 130px;
         font-size: 20px;
      }
+
+     .footer form input{
+        width: 400px;
+        height: 44px;
+    }
+    .footer form button{
+        height: 44px;
+        width: 120px;
+    }
+    
 }
-
-
